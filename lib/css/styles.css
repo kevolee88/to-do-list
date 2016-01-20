@@ -1,0 +1,133 @@
+html body {
+    padding: 0;
+    margin: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,a {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.wrapper {
+    display: block;
+    margin: 0 20px;
+}
+.title {
+    font-size: 70px;
+    text-align: center;
+}
+.sub {
+    font-size: 40px;
+    text-align: center;
+}
+input[type="text"] {
+    width: 99.8%;
+    height: 50px;
+    padding: 1px 0;
+    font-size: 32px;
+    color: #858585;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+    input[type="text"]:focus {
+      outline: none;
+    }
+button {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-bottom: 40px;
+    background-color: #49B5EE;
+    color: #fff;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+    button:active {
+        border: none;
+    }
+    button#clear {
+        display: none;
+    }
+    button.add {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    button.clear {
+        width: 49%;
+        float: left;
+    }
+    @media screen and (max-width: 499px) {
+        button#add,button#clear {
+            width: 100%;
+            margin-left: 0;
+        }
+        button#add {
+            margin-bottom: 20px;
+        }
+    }
+:focus {
+    outline: none;
+}
+ul {
+    padding: 0;
+    margin: 10px 0;
+}
+    ul li {
+        position: relative;
+        width: 99.8%;
+        height: 50px;
+        font-size: 32px;
+        color: #858585;
+        list-style-type: none;
+        text-align: center;
+        padding: 4px 0 0 0;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+        ul li i#complete {
+            position: absolute;
+            left: 13px;
+            top: 11px;
+            color: #000;
+            opacity: .2;
+            cursor: pointer;
+            -webkit-transition: all .1s ease-in-out;
+            -moz-transition: all .1s ease-in-out;
+            -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+        }
+            ul li i#complete:hover {
+                color: #1DE171;
+                opacity: 1;
+            }
+        ul li i#remove {
+            position: absolute;
+            right: 13px;
+            top: 11px;
+            color: #000;
+            opacity: .2;
+            cursor: pointer;
+            -webkit-transition: all .1s ease-in-out;
+            -moz-transition: all .1s ease-in-out;
+            -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+        }
+            ul li i#remove:hover {
+                color: #E1501D;
+                opacity: 1;
+            }
+
+
+
+
+
+
+
+
+
