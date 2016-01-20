@@ -122,6 +122,9 @@ ul {
                 color: #E1501D;
                 opacity: 1;
             }
+ul#not-to-do li {
+    opacity: .5;
+}
 
 
 
