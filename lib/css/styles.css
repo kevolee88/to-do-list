@@ -5,6 +5,10 @@ html body {
 body,h1,h2,h3,h4,h5,h6,p,a {
     font-family: 'Open Sans', sans-serif;
 }
+p {
+    margin: 0;
+    padding: 0;
+}
 .container {
     position: relative;
     width: 100%;
@@ -51,6 +55,9 @@ button {
     }
     button#clear {
         display: none;
+    }
+    button#clear-complete {
+        float: none;
     }
     button.add {
         width: 49%;
