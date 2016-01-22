@@ -30,6 +30,7 @@ p {
 input[type="text"] {
     width: 99.8%;
     height: 50px;
+    margin-top: 10px;
     padding: 1px 0;
     font-size: 32px;
     color: #858585;
@@ -73,7 +74,7 @@ button {
             width: 100%;
             margin-left: 0;
         }
-        button#add {
+        button#add, button#clear, button#clear-complete {
             margin-bottom: 20px;
         }
     }
